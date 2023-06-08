@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Merriweather:wght@300;400&family=Varela+Round&display=swap');
+
+body{
+background-color: coral;
+}
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+nav{
+font-family:'Edu NSW ACT Foundation', cursive;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+  background-color: blueviolet;
+  color: white;
+}
+.brand img{
+width: 55px;
+padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 25px auto;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url('bg6.png');
+}
+.bottom{
+position: sticky;
+height: 130px;
+background-color: black;
+color: white;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+width: 80vw;
+cursor: pointer;
+}
+.songItem{
+height: 50px;
+display: flex;
+background-color: white;
+
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 15px;
+}
+.songItemContainer{
+    margin-top: 75px;
+}
+
+
+.songItem img{
+width: 50px;
+margin: 0 23px; 
+border-radius: 35px;   
+}
+.timestamp{
+    margin: 0 23px;}
+
+    .timestamp i{
+cursor: pointer;
+
+    }
+
+    .songInfo{
+        position: absolute;
+        left: 10vw;
+    }
+
+    .songInfo img{
+        opacity: 0;
+    transition: opacity 0.5s ease-in;
+    }
